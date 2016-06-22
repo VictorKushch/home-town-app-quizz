@@ -7,7 +7,8 @@ body, html {
 
 body {
   font-family: Roboto;
-  font-size: 12px;
+  font-size: 16px;
+  line-height: 1.2em;
   color: #424242;
 }
 
@@ -154,7 +155,7 @@ main {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   bottom: 0;
-  height: 40%;
+  /* height: 40%; */
   width: 100%;
   color: #fff;
   padding: 1em;
@@ -214,7 +215,7 @@ main {
  */
 
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 520px){
 table, thead, tbody,  th, td, tr {
 	display: block;
     }
@@ -276,7 +277,7 @@ table, thead, tbody,  th, td, tr {
   font-weight: bold;
 }
 
-@media screen and (min-width: 461px){
+@media screen and (min-width: 521px){
     .scores__table td:nth-child(3) {
       text-align: right;
     }
