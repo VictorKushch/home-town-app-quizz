@@ -82,6 +82,9 @@
   }
 }
 
+
+
+
 @media screen and (min-width: 850px) {
   main, .header__inner, .nav, .content {
     width: 850px;
