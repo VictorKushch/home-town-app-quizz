@@ -7,10 +7,13 @@
   display: none;
 }
 
-.hero, .top-news, .scores, .weather, .recent-news {
+.hero, .top-news, .weather, .recent-news {
   order: 10;
 }
 
+.scores {
+    order: 11;
+}
 @media screen and (max-width: 549px) {
   .header__logo {
     height: 48px;
@@ -93,7 +96,8 @@
   }
 }
 
-@media screen and (max-width: 520px){
+
+/* @media screen and (max-width: 520px){
 table, thead, tbody,  th, td, tr {
 	display: block;
     }
@@ -118,7 +122,7 @@ table, thead, tbody,  th, td, tr {
           text-align: left;
 }
 
-}
+}  */
 
 @media screen and (min-width: 521px){
     .scores__table td:nth-child(3) {
@@ -129,4 +133,13 @@ table, thead, tbody,  th, td, tr {
     .scores__table td:nth-child(5) {
       text-align: center;
     }
+}
+
+@media screen and (min-width: 550px) and (max-width: 700px) {
+    .header__title{
+        font-size: 3em;
+        margin: 0.7em 0.25em;
+    }
+
+
 }
