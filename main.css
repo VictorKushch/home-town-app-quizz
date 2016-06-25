@@ -215,33 +215,6 @@ main {
  */
 
 
-@media screen and (max-width: 520px){
-table, thead, tbody,  th, td, tr {
-	display: block;
-    }
-    thead tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-    }
-    td {
-        position: relative;
-        padding-left: 30%;
-    }
-
-    td:before {
-        margin-right: 50%;
-        left: 10px;
-        content: attr(data-th);
-        font-weight: bold;
-        }
-
-    .scores__table td {
-          text-align: left;
-}
-
-}
-
 
 
 .scores {
@@ -278,16 +251,7 @@ table, thead, tbody,  th, td, tr {
   font-weight: bold;
 }
 
-@media screen and (min-width: 521px){
-    .scores__table td:nth-child(3) {
-      text-align: right;
-    }
 
-    .scores__table td:nth-child(2),
-    .scores__table td:nth-child(5) {
-      text-align: center;
-    }
-}
 /*
  *
  * Weather
@@ -364,6 +328,7 @@ table, thead, tbody,  th, td, tr {
   width: 100px;
   float: left;
   margin-right: 1em;
+  min-width: 40%;
 }
 
 .snippet__title {

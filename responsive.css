@@ -143,3 +143,11 @@ table, thead, tbody,  th, td, tr {
 
 
 }
+
+@media screen and (min-width: 623px) {
+    .snippet__thumbnail{
+        margin-bottom: 20px;
+    }
+
+
+}
